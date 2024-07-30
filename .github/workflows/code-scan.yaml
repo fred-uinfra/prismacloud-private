@@ -5,7 +5,7 @@ on:
     branches:
       - main
 jobs:
- scan:
+  scan:
    runs-on: ubuntu-latest
    permissions:
     contents: read # for actions/checkout to fetch code
